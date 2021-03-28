@@ -1,0 +1,46 @@
+// Local paths automatically determine app installation dir from steam.
+// Dedicated paths are relative to the appid folder
+"gamemounting.txt"
+{
+	"Half-Life 2: Episode Two"
+	{
+		"appid"		"420"
+		"required"	"0"
+		
+		"paths"
+		{
+			"local"			"ep2"
+			"local"			"ep2/ep2_sound_vo_english.vpk"
+			"local"			"ep2/ep2_pak.vpk"
+			"local"			"episodic"
+			"local"			"episodic/ep1_sound_vo_english.vpk"
+			"local"			"episodic/ep1_pak.vpk"
+		}
+	}
+	
+	"Half-Life 2: Lost Coast"
+	{
+		"appid"		"220"
+		"required"	"0"
+		
+		"paths"
+		{
+			"local"			"lostcoast"
+			"local"			"lostcoast/lostcoast_sound_vo_english.vpk"
+			"local"			"lostcoast/lostcoast_pak.vpk"
+		}
+	}
+
+	"Half-Life 2: Episode One"
+	{
+		"appid"		"380"
+		"required"	"0"
+		
+		"paths"
+		{
+			"local"			"episodic"
+			"local"			"episodic/ep1_sound_vo_english.vpk"
+			"local"			"episodic/ep1_pak.vpk"
+		}
+	}
+}

@@ -1,0 +1,82 @@
+# Files to ignore when considering what GIT should commit.
+.DS_Store
+
+# cache
+cache/*
+maps/soundcache/*
+maps/graphs/*
+materials/temp/*
+sound/temp/*
+sound.cache
+*.sound.cache
+modelsounds.cache
+
+# crash dumps
+*.dmp
+
+# config files
+cfg/sourcemod/*
+cfg/autoexec_user.cfg
+cfg/banned_ip.cfg
+cfg/banned_user.cfg
+cfg/config.cfg
+cfg/server_blacklist.txt
+cfg/server.cfg
+cfg/user.scr
+cfg/settings.scr
+settings/admins.txt
+ServerConfig.vdf
+
+# logs
+logs/*
+console.log
+
+# demo records
+*.dem
+
+# user stuff
+cfg/pet.txt
+download/*
+downloadlists/*
+SAVE/*
+screenshots/*
+demoheader.tmp
+stats.txt
+gamestate.txt
+voice_ban.dt
+textwindow_temp.html
+demos/*
+materials\vgui\logos\ui\*
+materials/vgui/logos/ui/andre.vmt
+materials/vgui/logos/ui/chick1.vmt
+materials/vgui/logos/ui/spray_dog.vmt
+materials/vgui/logos/ui/spray_elited.vmt
+materials/vgui/logos/ui/spray_flashbanged.vmt
+materials/vgui/logos/ui/spray_kamikazi.vmt
+*.db
+ep1_gamestats.dat
+
+# content source
+materialsrc/*
+soundsrc/*
+mapsrc/*.log
+
+# source plugins
+addons/*
+
+# Ignore user custom assets
+custom/*
+
+# faceposer stuff
+expressions/*
+
+# shader files
+*.tmp
+
+# map compile products
+*.prt
+*.vmx
+
+# Program debug database
+*.pdb
+
