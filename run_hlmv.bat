@@ -23,7 +23,7 @@ if not exist "%steampath%\steam.exe" (
 
 echo Running Model Viewver...
 
-@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Multiplayer\bin" hlmv.exe -game "%CD%"
+@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Singleplayer\bin" hlmv.exe -game "%CD%"
 
 if %ERRORLEVEL% NEQ 0 goto error
 goto success

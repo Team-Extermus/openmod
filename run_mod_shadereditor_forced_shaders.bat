@@ -23,7 +23,7 @@ if not exist "%steampath%\steam.exe" (
 
 echo Running Source Shader Editor Tool...
 
-@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Multiplayer" hl2.exe -steam -sw -dev +sv_cheats 1 -console -novid -game "%CD%" -shaderedit -force_vendor_id 0x10DE -force_device_id 0x1180 -noborder
+@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Singleplayer" hl2.exe -steam -sw -dev +sv_cheats 1 -console -novid -game "%CD%" -shaderedit -force_vendor_id 0x10DE -force_device_id 0x1180 -noborder
 
 if %ERRORLEVEL% NEQ 0 goto error
 goto success

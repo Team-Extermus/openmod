@@ -1,0 +1,88 @@
+// Alyx Gun
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"#HL2_AlyxGun"
+	"viewmodel"				"models/weapons/v_alyxgun.mdl"
+	"playermodel"			"models/weapons/W_Alyx_Gun.mdl"
+	"anim_prefix"			"alyxgun"
+	"bucket"				"1"
+	"bucket_position"		"4"
+
+	"clip_size"				"30"
+	"clip2_size"			"-1"
+
+	"default_clip"			"30"
+	"default_clip2"			"-1"
+
+	"primary_ammo"			"AlyxGun"
+
+	"weight"				"2"
+	"item_flags"			"0"
+	
+	// Ironsight setting.
+	IronSight
+	{
+		"right"		"-5.95"
+		"up"		"4.18"
+		"yaw" "-1.25"
+		"forward"	"-7"
+		"fov"		"-5"
+		"pitch"	"-0.2"
+		"roll"	"1"				
+		"AdjustAccuracy"	"0.5"
+	}
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+
+		"reload"		"Weapon_Alyx_Gun.Reload"
+		"reload_npc"	"Weapon_Alyx_Gun.NPC_Reload"
+		"empty"			"Weapon_Alyx_Gun.Empty"
+		"single_shot"	"Weapon_Alyx_Gun.Single"
+		"single_shot_npc"	"Weapon_Alyx_Gun.NPC_Single"
+		"special1"		"Weapon_Alyx_Gun.Special1"
+		"special2"		"Weapon_Alyx_Gun.Special2"
+		"burst"			"Weapon_Alyx_Gun.Burst"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponExtraIcons"
+				"character"	"c"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponExtraIconsSelected"
+				"character"	"c"
+		}
+		"weapon_small"
+		{
+				"font"		"WeaponExtraIconsSmall"
+				"character"	"c"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIconsSmall"
+				"character"	"p"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+}

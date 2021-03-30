@@ -23,7 +23,7 @@ if not exist "%steampath%\steam.exe" (
 
 echo Running Facepocer...
 
-@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Multiplayer\bin" hlfaceposer.exe -game "%CD%"
+@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Singleplayer\bin" hlfaceposer.exe -game "%CD%"
 
 if %ERRORLEVEL% NEQ 0 goto error
 goto success

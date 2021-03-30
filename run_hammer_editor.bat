@@ -23,7 +23,7 @@ if not exist "%steampath%\steam.exe" (
 
 echo Running Hammer Editor++...
 
-@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Multiplayer\bin" hammerplusplus.exe -legacy_searching -game "%cd%"
+@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Singleplayer\bin" hammerplusplus.exe -legacy_searching -game "%cd%"
 
 if %ERRORLEVEL% NEQ 0 goto error
 goto success

@@ -23,7 +23,7 @@ if not exist "%steampath%\steam.exe" (
 
 echo Running game (Debug Mode)...
 
-@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Multiplayer" hl2.exe -steam -sw -dev +sv_cheats 1 -console -novid -game "%CD%" -allowdebug -condebug -full -noborder
+@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Singleplayer" hl2.exe -steam -sw -dev +sv_cheats 1 -console -novid -game "%CD%" -allowdebug -condebug -full -noborder
 
 if %ERRORLEVEL% NEQ 0 goto error
 goto success
