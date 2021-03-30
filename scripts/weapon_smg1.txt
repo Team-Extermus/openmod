@@ -29,10 +29,10 @@ WeaponData
 	IronSight
 	{
 		"forward"		"-6"
-		"right"		"-1.4"
-		"up"		"1"
-		"roll"		"-1"
-		"pitch"		"-1"
+		"right"		"-4.78"
+		"up"		"1.6"
+		"roll"		"2"
+		"pitch"		"0"
 		"yaw"		"0"
 	}
 

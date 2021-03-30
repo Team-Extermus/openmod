@@ -1,6 +1,6 @@
 // Open Mod Player Sounds
 
-"Player.IronsightsIn"
+"Player.IronSightIn"
 {
 	"channel"	"CHAN_ITEM"
 	"volume"	"1.0"
@@ -9,7 +9,7 @@
 	"wave"		"player/ironsight_on.wav"
 }
 
-"Player.IronsightsOut"
+"Player.IronSightOut"
 {
 	"channel"	"CHAN_ITEM"
 	"volume"	"1.0"

@@ -1,8 +1,14 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models\weapons\alyxgun/v_alyxgun"
-	"$model" "1"
-	"$translucent" "1"
+	"$baseTexture" "models\weapons\alyxgun\v_alyxgun"
+	"$bumpmap" "models\weapons\alyxgun\v_alyxgun_normal"
 	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
 	"$envmapmask" "models\weapons\alyxgun\v_alyxgun_em"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+	"$phongboost"	"2"
+	"$phongexponent" "5"
+	"$phongfresnelranges" "[1 0.5 1]"
 }
