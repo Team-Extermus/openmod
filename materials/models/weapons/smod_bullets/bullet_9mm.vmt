@@ -1,0 +1,16 @@
+SDK_VertexLitGeneric
+{
+	"$basetexture" "models\smod_bullets\bullet_9mm"
+	"$bumpmap" "models\smod_bullets\bullet_9mmn"
+	"$color2"			            "[0.35 0.35 0.35]"
+
+	$envmap                     	env_cubemap
+	$envmaptint                 	"[ .8 .5 .2 ]"
+	$normalmapalphaenvmapmask   	1
+
+	$phong                      	1
+	$phongexponent                 	50
+	$phongboost                 	4
+	$phongfresnelranges         	"[5 10 10]"
+	$phongtint						"[ .8 .5 .2 ]"
+}

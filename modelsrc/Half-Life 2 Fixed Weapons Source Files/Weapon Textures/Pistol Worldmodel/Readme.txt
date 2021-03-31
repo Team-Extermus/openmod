@@ -1,0 +1,1 @@
+I slightly changed the pistol texture.

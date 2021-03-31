@@ -1,4 +1,4 @@
-"unlitgeneric"
+SDK_UnlitGeneric
 {
 	"$basetexture" "shadereditor/busy"
 	"$nocull" 1

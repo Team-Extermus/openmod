@@ -1,0 +1,41 @@
+SDK_VertexLitGeneric
+{
+	"$baseTexture" "Models/Weapons/V_pistol/v_pistol_sheet"
+	"$bumpmap" "models/weapons/V_pistol/v_pistol_sheet_normal"
+        "$phongexponenttexture" "models/weapons/V_pistol/v_pistol_sheet_phong"
+
+
+
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" 1
+	"$envmapcontrast" 1
+	"$envmaptint" "[0.835 0.835 0.935]"
+        //"$envmapfresnel" "0.05"
+
+	"$selfillum" 1
+
+	"$phong" "1"
+	"$phongboost" "6"
+	"$phongexponent" "30"
+	"$phongalbedotint" "1"								
+	//"$phongfresnelranges"	"[.1 5 1]"
+        //"$phongfresnelranges"	"[0.5 4.75 5]"
+         $phongfresnelranges "[1.2 2 4]"
+        "$phongtint"                   "[0.7 0.9 1]" 
+
+         $normalmapluminancephongmask 1
+         $ambientocclusion 1
+        
+
+	"$halflambert"			"1"
+
+
+        "$rimlight"               "1"
+	"$rimlightexponent"       "15"
+	"$rimlightboost"          ".25"
+	"$rimmask"			"1"
+
+
+}

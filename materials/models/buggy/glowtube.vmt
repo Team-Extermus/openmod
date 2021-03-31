@@ -1,0 +1,21 @@
+SDK_VertexLitGeneric
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/buggy/glowtube"
+	"$bumpmap" "models/buggy/glowtube_nrm"
+	"$phongexponenttexture" "models/buggy/glowtube_phong"
+	
+	"$envmap" "env_cubemap"
+//	"$envmapFresnel" "1"
+	"$envmaptint" "[ .06 .06 .06 ]"
+
+
+	"$phong"				"1"
+	"$phongboost"			"0.75"
+	"$phongfresnelranges"		"[1 3 4]"
+	"$halflambert"			"1"
+	"$rimlight"			"1"
+	"$rimlightexponent"			"100"
+	"$rimlightboost"			".5"
+	"$rimmask"			"1"
+}

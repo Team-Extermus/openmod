@@ -1,0 +1,11 @@
+SDK_VertexLitGeneric
+{
+	"$basetexture" "models\sirgibs\weapons\smod\pistol\pistol_silencer"
+        "$bumpmap" "models\sirgibs\weapons\smod\pistol\pistol_silencer_normal"
+	"$phong" "1"
+	"$phongboost" "8"
+	"$phongexponent" "15"
+	"$phongalbedotint" "1"								
+	"$phongfresnelranges"	"[.1 .5 1]"
+	"$nocull" "1"
+}

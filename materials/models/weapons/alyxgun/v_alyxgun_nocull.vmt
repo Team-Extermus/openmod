@@ -1,0 +1,18 @@
+SDK_VertexLitGeneric
+{
+	"$basetexture" "models\weapons\alyxgun\v_alyxgun"
+	"$model" "1"
+	"$nocull" "1"
+	"$bumpmap" "models\weapons\alyxgun\v_alyxgun_normal"
+	"$envmap" "env_cubemap"
+	"$envmapmask"		"models\weapons\alyxgun\v_alyxgun_em"
+//	"$envmapcontrast" 1
+	"$normalmapalphaenvmapmask" 1
+
+// -- from here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+	"$phongboost"	"2"
+	"$phongexponent" "12"
+	"$phongfresnelranges" "[0.1 0.5 1]"
+}	
+

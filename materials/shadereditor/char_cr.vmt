@@ -1,4 +1,4 @@
-"UnlitGeneric"
+SDK_UnlitGeneric
 {
 	$basetexture "shadereditor/char_cr"
 	$translucent	1

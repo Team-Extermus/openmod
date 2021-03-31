@@ -1,0 +1,1 @@
+If this .vtf file was added in "v_grenade" folder, w_grenadesheet.vtf must not be in the "items" folder.

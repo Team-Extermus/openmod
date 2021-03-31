@@ -50,21 +50,13 @@ Scheme
 		"Normal"			"255 208 64 255"
 		"Caution"			"255 48 0 255"
 
-		// Top-left corner of the "Half-Life 2" on the main screen
+		// Top-left corner of the "OPEN MOD" on the main screen
 		"Main.Title1.X"			"53"
-		"Main.Title1.Y"			"190"
-		"Main.Title1.Y_hidef"	"184"
-		"Main.Title1.Color"	"255 255 255 255"
-
-		// Top-left corner of secondary title e.g. "DEMO" on the main screen
-		"Main.Title2.X"				"291"
-		"Main.Title2.Y"				"207"
-		"Main.Title2.Y_hidef"		"242"
-		"Main.Title2.Color"	"255 255 255 200"
+		"Main.Title1.Y"			"187"
+		"Main.Title1.Color"		"255 255 255 255"
 
 		// Top-left corner of the menu on the main screen
 		"Main.Menu.X"			"53"
-		"Main.Menu.X_hidef"		"76"
 		"Main.Menu.Y"			"240"
 
 		// Blank space to leave beneath the menu on the main screen
@@ -673,7 +665,7 @@ Scheme
 			"1"
 			{
 				"name"  "Impact"
-				"tall"	"46"
+				"tall"	"76"
 				"weight" "0"
 				"additive" "0"
 				"antialias" "1"

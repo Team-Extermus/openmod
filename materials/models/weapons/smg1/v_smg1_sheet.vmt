@@ -1,0 +1,45 @@
+SDK_VertexLitGeneric
+{
+	"$baseTexture" "Models/Weapons/V_smg1/v_smg1_sheet"
+	"$bumpmap" "models/weapons/v_smg1/smg1_normal"
+        "$phongexponenttexture" "models/weapons/v_smg1/smg1_phong"
+	"$selfillummask" "models/weapons/v_smg1/v_smg1_sheet_mask"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+//	"$phong" "1"
+//	"$phongexponent" "45"
+//	"$phongboost"	"2"
+//	"$phongfresnelranges"	"[.2 4 1]"
+
+//	"360?$color2" "[ 0.4 0.4 0.4 ]"
+
+
+
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" .7
+	"$envmapcontrast" 1
+	"$envmaptint" "[0.435 0.435 0.435]"
+        //"$envmapfresnel" "0.05"
+
+	"$selfillum" 1
+
+	"$phong" "1"
+	"$phongboost" "3.25"
+	"$phongexponent" "60"
+	"$phongalbedotint" "1"								
+	//"$phongfresnelranges"	"[.1 5 1]"
+        "$phongfresnelranges"	"[0.5 4.75 5]"
+        "$phongtint"                   "[0.7 0.9 1]" 
+
+        
+
+	"$halflambert"			"1"
+
+
+        "$rimlight"               "1"
+	"$rimlightexponent"       "15"
+	"$rimlightboost"          ".25"
+	"$rimmask"			"1"
+}

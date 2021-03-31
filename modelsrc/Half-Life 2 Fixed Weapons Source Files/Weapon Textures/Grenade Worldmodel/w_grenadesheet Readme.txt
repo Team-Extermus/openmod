@@ -1,0 +1,1 @@
+If you don't want to change "grenadebody.vtf" texture that belongs in the "v_grenade" folder, this .vtf file must be in the "items" folder.

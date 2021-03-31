@@ -1,0 +1,19 @@
+SDK_VertexLitGeneric
+{
+	"$baseTexture" "models\Weapons\v_357\ak47"
+	"$bumpmap" "models\Weapons\v_357\ak47_normal"
+	"$phongexponenttexture" "models\Weapons\v_357\ak47_phong"
+
+	"$selfillum" 1
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.4 .4 .4]"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[.2 4 1]"
+
+	"360?$color2" "[ 0.4 0.4 0.4 ]"
+}

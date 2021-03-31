@@ -1,4 +1,4 @@
-"UnlitGeneric"
+SDK_UnlitGeneric
 {
 	$basetexture "shadereditor/ac_var"
 	$translucent	1

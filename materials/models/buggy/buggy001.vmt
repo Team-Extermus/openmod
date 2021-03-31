@@ -1,0 +1,29 @@
+SDK_VertexLitGeneric
+{
+	"$basetexture" "Models/Buggy/buggy001"
+	"$phongexponenttexture" "Models/Buggy/buggy001_exp"
+	"$surfaceprop" "metal"
+
+	"$selfillum" "1"
+	"$selfillummask" "Models/Buggy/tau_lights"
+
+	"$envmap" "env_cubemap"
+//	"$envmapFresnel" "1"
+	"$envmaptint" "[ .06 .06 .06 ]"
+
+	"$phong" 			"1"
+	"$phongexponent" 		"10"
+	"$phongboost" 			"2"
+	"$phongfresnelranges"		"[4 4 6]"
+	"$phongalbedotint" 			"1"
+	"$phongalbedoboost" 		"48"
+	"$basemapalphaphongmask" 	"1"
+
+	"$rimlight" 	"1"
+	"$rimlightexponent" 	"80"	
+	"$rimlightboost"	"5"
+	"$rimmask" 	"1"
+
+	"$nocull" "1"
+
+}

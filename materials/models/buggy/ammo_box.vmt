@@ -1,0 +1,24 @@
+SDK_VertexLitGeneric
+{
+	"$basetexture" "Models/Buggy/ammo_box"
+	"$phongexponenttexture" "Models/Buggy/ammo_box_exp"
+	"$color2" "[0.4 0.4 0.4]"
+	"$blendTintByBaseAlpha"	"1"
+	"$surfaceprop" "metal"
+	
+	"$envmap" "env_cubemap"
+//	"$envmapFresnel" "1"
+	"$envmaptint" "[ .06 .06 .06 ]"
+
+	"$phong" 			"1"
+	"$phongexponent" 		"50"
+	"$phongboost" 			".1"
+	"$phongfresnelranges"		"[2 2 4]"
+//	"$phongotint" 			"[0.08 0.08 0.06]"
+	"$basemapalphaphongmask" 	"1"
+
+	"$rimlight" 	"1"
+	"$rimlightexponent" 	"80"	
+	"$rimlightboost"	".2"
+	"$rimmask" 	"1"
+}
