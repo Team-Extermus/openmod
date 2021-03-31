@@ -52,7 +52,7 @@ Scheme
 
 		// Top-left corner of the "OPEN MOD" on the main screen
 		"Main.Title1.X"			"53"
-		"Main.Title1.Y"			"187"
+		"Main.Title1.Y"			"185"
 		"Main.Title1.Color"		"255 255 255 255"
 
 		// Top-left corner of the menu on the main screen

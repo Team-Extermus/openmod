@@ -54,8 +54,11 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"font"		"Crosshairs"
-				"character"	"Q"
+				"file"		"hud/throwable_crosshair"
+				"x"			"0"
+				"y"			"0"
+				"width"		"64"
+				"height"	"64"
 		}
 		"autoaim"
 		{

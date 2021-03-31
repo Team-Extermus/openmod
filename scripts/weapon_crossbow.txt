@@ -66,8 +66,11 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"font"		"Crosshairs"
-				"character"	"Q"
+			"file"		"hud/handgun_chrosshair"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
 		}		
 		"autoaim"
 		{
@@ -79,8 +82,11 @@ WeaponData
 		}
 		"zoom"
 		{
-				"font"		"Crosshairs"
-				"character"	"Q"
+			"file"		"hud/handgun_chrosshair"
+			"x"			"0"
+			"y"			"0"
+			"width"		"64"
+			"height"	"64"
 		}		
 		"zoom_autoaim"
 		{

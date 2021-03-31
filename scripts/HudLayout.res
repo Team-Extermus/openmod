@@ -110,7 +110,7 @@
 		"BarInsetY" "10"
 		"BarWidth" "92"
 		"BarHeight" "4"
-		"BarChunkWidth" "6"
+		"BarChunkWidth" "1"
 		"BarChunkGap" "0"
 
 		"PaintBackgroundType"	"2"
@@ -137,7 +137,7 @@
 		"BarInsetY" "18"
 		"BarWidth" "28"
 		"BarHeight" "2"
-		"BarChunkWidth" "2"
+		"BarChunkWidth" "1"
 		"BarChunkGap" "0"
 	}
 
